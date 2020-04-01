@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  </head>
+
+  <body>
+    <header>
+
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Sólidos Platónicos</a></li>
+        <li><a href="#!">Armonización de Espacios</a></li>
+      </ul>
+      <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#!">Meditaciones</a></li>
+        <li><a href="#!">Reiki a Distancia</a></li>
+        <li><a href="#!">Como fabricar tus sólidos</a></li>
+      </ul>
+
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="" width="150" height="auto"></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="dropdown-trigger" data-target="dropdown1" data-belowOrigin="true" href="#">Geometría Sagrada</a></li>
+            <li><a class="dropdown-trigger" data-target="dropdown2" href="#">Recursos Gratuitos</a></li>
+            <li><a href="#">Tienda </a></li>
+            <li><a href="#">Contacto </a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Geometría Sagrada</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+
+    </header>
+
+    <section>
+
+      <div class="container">
+        <h3 class="center-align">TIENES DUDAS?</h3>
+
+      </div>
+
+      <div class="container">
+        <div class="card ">
+          <div class="card-content">
+            <span class="card-title"></span>
+            <p class="center-align">Escríbenos a <a href="#">contacto@bellotaterapias.cl</a> para saber mas acerca de nuestras terapias o a través de nuestro formulario de contacto.</p>
+          </div>
+          <div class="card-content">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">Nombre</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+
+                  <input id="subject" type="text" class="validate">
+                  <label for="subject">Asunto</label>
+                </div>
+                <div class="input-field col s6">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Dejanos tu mensaje.</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="card-action">
+            <a class="waves-effect waves-light btn" href="#">Enviar</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+  </body>
+
+</html>
