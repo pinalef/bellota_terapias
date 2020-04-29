@@ -1,10 +1,6 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+html {
+  scroll-behavior: smooth;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -19,21 +15,52 @@ p {
   color: #26a69a;
 }
 
-.parallax-container {
+a {
+  text-decoration: none
+}
+
+.logo {
+  width: 150;
+  height: auto;
+}
+
+.crop {
+  height: 360px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.crop img {
+  height: auto;
+  width: 100%;
+}
+
+/* .img {
+  width: 360px;
+  height: 400px;
+
+  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+/* object-fit: scale-down;
+
+} */
+
+*/ .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -48,8 +75,21 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #49148c;
+
+}
+
+.footer-col-thin {
+  width: 30%;
+  border-right: 1px solid #c2bdbb;
+  padding: 0 3em;
+  position: relative;
 }
 
 footer.page-footer {
