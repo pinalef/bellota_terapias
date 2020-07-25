@@ -1,5 +1,12 @@
 {
-  "html.format.indentInnerHtml": true,
-  "html.format.enable": false,
-  "editor.formatOnSave": true
+  "html.format.preserveNewLines": false,
+  "editor.defaultFormatter": "vscode.configuration-editing",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+     "html.format.wrapLineLength": 0,
+  "html.format.endWithNewline": true  
 }
