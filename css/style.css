@@ -22,10 +22,6 @@ body {
   text-decoration: none;
 } */
 
-
-
-
-
 /* nav ul a,
 nav .brand-logo {
   color: #444;
@@ -60,7 +56,7 @@ p {
 }
 
 .heading-wrap h2 {
-  font-size: 50px;
+  font-size: 27px;
   position: relative;
   padding-top: 30px;
   z-index: 2;
@@ -83,9 +79,12 @@ p {
 .linea {
   border-bottom: solid 1px #49148c;
 
-  width: 75px; 
+  width: 13%; 
    }
 
+  i.icon-pink{
+    color: #49148c;
+  }
  
 /* .img {
   width: 360px;
@@ -96,8 +95,8 @@ p {
 
 } */
 
-*/ .parallax-container {
-  min-height: 380px;
+ .parallax-container {
+  min-height: 550px;
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, .9);
@@ -107,7 +106,7 @@ p {
   width: 100%;
 }
 
-@media only screen and (max-width : 992px) {
+/* @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -116,7 +115,7 @@ p {
   #index-banner .section {
     top: 10%;
   }
-}
+} */
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
